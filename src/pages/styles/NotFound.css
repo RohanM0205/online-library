@@ -1,0 +1,44 @@
+.not-found-container {
+    background-color: #E0E0E0;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2F4F4F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .not-found-container img {
+    width: 350px;
+    max-width: 90%;
+    margin-bottom: 30px;
+  }
+  
+  .not-found-container h1 {
+    font-size: 4rem;
+    color: #008080;
+    margin-bottom: 10px;
+  }
+  
+  .not-found-container p {
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+  }
+  
+  .not-found-container a {
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #FF6B6B;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .not-found-container a:hover {
+    background-color: #008080;
+  }
+  

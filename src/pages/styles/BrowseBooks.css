@@ -1,0 +1,85 @@
+.browse-container {
+    padding: 30px;
+    background-color: #E0E0E0;
+    min-height: 100vh;
+    color: #2F4F4F;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .browse-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #008080;
+  }
+  
+  .search-bar {
+    padding: 10px 15px;
+    width: 300px;
+    max-width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    border-color: #FF6B6B;
+  }
+  
+  .book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    max-width: 1200px;
+  }
+  
+  .book-card {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 220px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+  
+  .book-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .book-card p {
+    margin: 2px 0;
+  }
+  
+  .book-card a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #FF6B6B;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .book-card a:hover {
+    color: #008080;
+  }
+  

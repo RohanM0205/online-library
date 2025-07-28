@@ -1,4 +1,14 @@
 body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #E0E0E0;
+  color: #2F4F4F;
   margin: 0;
-  font-family: sans-serif;
+  padding: 0;
+}
+a {
+  color: #008080;
+  text-decoration: none;
+}
+a:hover {
+  color: #FF6B6B;
 }
