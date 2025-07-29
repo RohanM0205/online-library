@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 📚 Online Library System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive, responsive web application built using **React + Redux** for managing and browsing books. Users can view, add, and explore detailed information about books across various categories.
 
-## Available Scripts
+![App Screenshot](./src/assets/Home.png) 
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🏠 Home page with welcome banner, categories, and popular books
+- 📚 Browse all books by category
+- ➕ Add a new book (with form validation)
+- 🧐 View detailed information on each book
+- 📖 Read sample book (PDF) from detail page
+- ❌ Custom 404 Not Found page
+- ✨ Styled UI with soft teal theme and responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Frontend  | Description                     |
+|-----------|---------------------------------|
+| React     | Component-based UI              |
+| Redux     | State management                |
+| React Router | Client-side routing         |
+| JavaScript | Core logic & interactions      |
+| CSS       | Custom styling with theme colors|
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+online-library/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── redux/
+│ ├── styles/
+│ ├── App.js
+│ └── index.js
+├── .gitignore
+├── README.md
+└── package.json
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🖥️ Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to set up the project locally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1️⃣ Clone the repository
 
-## Learn More
+```bash
+git clone https://github.com/RohanM0205/online-library.git
+cd online-library
+npm install
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📷 Screenshots
 
-### Code Splitting
+### Home Page
+![Home Page](./src/assets/Home.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### BrowseBooks Page
+![BrowseBooks Page](./src/assets/BrowseBooks.png)
 
-### Analyzing the Bundle Size
+### Add Book Page
+![Add Book Page](./src/assets/AddNewBook.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### BookDetails Page
+![BookDetails  Page](./src/assets/BookDetails.png)
 
-### Making a Progressive Web App
+### Not Found Page
+![Not Found Page](./src/assets/NotFound.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+🧑‍💻 Author
+Rohan More
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📄 License
+This project is licensed under the MIT License — feel free to use, fork, or contribute.
