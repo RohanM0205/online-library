@@ -7,6 +7,7 @@ import BrowseBooks from './pages/BrowseBooks';
 import BookDetails from './pages/BookDetails';
 import AddBook from './pages/AddBook';
 import NotFound from './pages/NotFound';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/add-book" element={<AddBook />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
